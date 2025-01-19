@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+
+
+img, video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+
+
+body{
+	background-color: lightgray;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+		
+}
+
+/*stile del box principale*/
+
+.main-box{
+	//border: solid 1px red;
+	width: 600px;
+	background-color: #fff;
+	margin: 50px auto;
+	padding: 40px;
+		
+}
+
+.logo{
+	\\border: solid 1px red;
+	width: 150px;
+	margin: auto;
+	
+}
+
+.logo img{
+	width: 100%;
+	
+}
+
+/*sitle del menu*/
+
+.nav{
+	\\border: solid 1px red;
+	margin: 20px 0px;
+	text-align: center;
+	
+}
+
+.nav a{
+	padding: 5px 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: #444;
+	font-weight: 200;
+	letter-spacing: 2px;
+	\\border: solid 1px red;
+	
+}
+
+.nav a:hover{
+	color: orangered;
+	
+}
+
+
+.cover	{
+	//border: solid 1px red;
+}
+
+
+.footer{
+	\\border: solid 1px red;
+	text-align: center;
+	font-size: 11px;
+	margin-top: 30px;
+	
+}
+
+
+.copy{
+	padding: 40px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 14px;
+}
+
+.ingr{
+	padding-left: 20px;
+	color: darkred;
+	
+}
+
+.darkgreen{
+	color: darkgreen;
+}
+
+.orange{
+	color: orangered;
+}
+
+.lightgreen{
+	color: darkolivegreen;
+}
+
+
